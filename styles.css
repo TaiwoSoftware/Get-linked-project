@@ -1,4 +1,22 @@
-body{
-    background-color: #150e28;
-    padding: 1rem;
+@font-face {
+  font-family: montserrat;
+  src: url(font/static/Montserrat-Regular.ttf);
+}
+body {
+  font-family: montserrat, sans-serif;
+  background-color: #150e28;
+  padding: 1rem;
+}
+/* font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left; */
+h1 {
+  color: #fff;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
