@@ -51,7 +51,12 @@ a{
 }
 
 header hr{
-  border: .5px solid gray;
+  border: .5px solid rgba(255, 255, 255, 0.18);
+  height: 2px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+
 }
 
 .link-container{
